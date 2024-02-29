@@ -17,6 +17,10 @@ Here are some ideas to get you started:
 20122023/13338644
 -->
 
-[![Github stats](https://github-readme-stats.vercel.app/api?username=stdedos&show_icons=true&layout=compact&hide_title=true&theme=Gradient&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff)](https://github.com/stdedos/)
+<p align="center">
+  <a href="https://github.com/stdedos/">
+    <img src="https://github-readme-stats.vercel.app/api?username=stdedos&show_icons=true&layout=compact&hide_title=true&theme=Gradient&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff" alt="Github stats">
+  </a>
+</p>
 
 <p align="center"><img src="/github-metrics.svg" alt="Metrics"></p>
