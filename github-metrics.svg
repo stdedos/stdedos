@@ -8132,7 +8132,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     maintainer
-                                    <span class="gh">ranked 36.5k out of 180m repositories</span>
+                                    <span class="gh">ranked 36.5k out of 181m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 1289 stars</div>
                             </div>
@@ -8399,7 +8399,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 927k out of 131m users</span>
+                                    <span class="gh">ranked 928k out of 131m users</span>
                                 </div>
                                 <div class="text">Followed by 15 users</div>
                             </div>
@@ -8933,7 +8933,7 @@ Signed-off-by: Stavros Ntentos &lt;133706+stdedos@users.noreply.github.com&gt;
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 7 Mar 2024, 22:09:45 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 7 Mar 2024, 23:09:50 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
