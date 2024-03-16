@@ -8144,7 +8144,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     maintainer
-                                    <span class="gh">ranked 36.4k out of 133m repositories</span>
+                                    <span class="gh">ranked 36.4k out of 120m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 1300 stars</div>
                             </div>
@@ -8943,7 +8943,7 @@ Signed-off-by: Stavros Ntentos &lt;133706+stdedos@users.noreply.github.com&gt;
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 16 Mar 2024, 11:09:09 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 16 Mar 2024, 12:10:06 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
