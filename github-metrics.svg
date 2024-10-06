@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="4304" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="4291" class="">
     <defs>
         <style/>
     </defs>
@@ -8441,7 +8441,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     maintainer
-                                    <span class="gh">ranked 26.1k out of 221m repositories</span>
+                                    <span class="gh">ranked 26.1k out of 224m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 1930 stars</div>
                             </div>
@@ -9181,34 +9181,16 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            `no-member`: Support tracking/ignoring `request.cls.X` / `self.X`
+                            Minor improvements
 
-It seems we already support the (weird) scenario that someone does
-`clls = request.cls`, and subsequently uses `clls.X = Y`
-
-However, it appears that we are missing the trivial `request.cls.X = Y` case
-
-Fixes https://github.com/pylint-dev/pylint-pytest/issues/74
-
-Additionally:
-
-* Factorize condititons for semantic naming
-* Make some "not-docstrings" comments, and fix some grammar issues.
-
-In order to "properly" analyze fixtures that might change the class itself
-(which it can usually be out of order typed), we need to walk the
-`fixture` `FunctionDef`s in advance, in their topological order, per-scope.
-
-For that, we need to hand-roll out own ASTWalker / ASTVisitor
-(pylint's is a bit tight to their `checker` implementation).
-
-This enables us to (almost) correctly allow pylint to introspect
-`used-before-assignment` issues
-(see `tests/input/no-member/not_using_cls.py` changes)
-
-For project internals:
-
-* Split `pylint_pytest/utils.py` to modules
+* Do `pre-commit autoupdate`
+* `Makefile`:
+  * Set `PYTHONPATH` to `pwd` (instead of `.`)
+  * `install`: depend on `requirements/dev.txt` "recipe"
+  * Whitespace normalization
+* `tool.ruff.lint.pydocstyle.convention`: Hint we are actually doing `sphinx`
+* Fix (== ignore) errors coming from the update
+* Minor linguistic change
 
 Signed-off-by: Stavros Ntentos &lt;133706+stdedos@users.noreply.github.com&gt;
                         </div>
@@ -9216,8 +9198,8 @@ Signed-off-by: Stavros Ntentos &lt;133706+stdedos@users.noreply.github.com&gt;
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">b47866b0</span>
-                            <span class="code">.pre-commit-config.yaml</span>
+                            <span class="code">1bf53a34</span>
+                            <span class="code">pyproject.toml</span>
                             <span class="code">
                                 <span class="snippet additions">++2</span>
                                 <span class="snippet deletions">--0</span>
@@ -9228,14 +9210,14 @@ Signed-off-by: Stavros Ntentos &lt;133706+stdedos@users.noreply.github.com&gt;
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -79,7 +79,9 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    - id: mypy<br /></span><span class="token prefix unchanged">·</span><span class="token line">      exclude: tests/input/<br /></span><span class="token prefix unchanged">·</span><span class="token line">      additional_dependencies:<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">        - attrs<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">        - pylint<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">        - types-networkx<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">- repo: local<br /></span><span class="token prefix unchanged">·</span><span class="token line">  hooks:<br /></span><span class="token prefix unchanged">·</span><span class="token line">    - id: pylint</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -166,6 +166,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">]<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">[tool.ruff.lint.pydocstyle]<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># https://github.com/astral-sh/ruff/pull/13286<br /></span><span class="token prefix inserted">+</span><span class="token line"># XXX: sphinx??<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">convention = "google"<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">[tool.ruff.lint.extend-per-file-ignores]</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 6 Oct 2024, 12:12:31 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 6 Oct 2024, 13:11:34 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
