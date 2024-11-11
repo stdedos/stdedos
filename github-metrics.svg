@@ -473,7 +473,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>stdedos/dataclass-wizard</span>
-                                        <span>starred 14 hours ago</span>
+                                        <span>starred 15 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A simple, yet elegant, set of wizarding tools for interacting with Python dataclasses.</div>
@@ -920,7 +920,7 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     developer
-                                    <span class="gh">ranked 200k out of 148m users</span>
+                                    <span class="gh">ranked 200k out of 146m users</span>
                                 </div>
                                 <div class="text">Published 100 public repositories</div>
                             </div>
@@ -991,7 +991,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     maintainer
-                                    <span class="gh">ranked 25.8k out of 226m repositories</span>
+                                    <span class="gh">ranked 25.8k out of 228m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 1974 stars</div>
                             </div>
@@ -1260,7 +1260,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 834k out of 148m users</span>
+                                    <span class="gh">ranked 834k out of 146m users</span>
                                 </div>
                                 <div class="text">Followed by 19 users</div>
                             </div>
@@ -1719,7 +1719,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 12 Nov 2024, 00:11:34 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 12 Nov 2024, 01:11:30 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
