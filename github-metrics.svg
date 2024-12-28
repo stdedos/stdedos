@@ -8034,7 +8034,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>OXY2DEV/markview.nvim</span>
-                                        <span>starred 16 days ago</span>
+                                        <span>starred 17 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -8489,7 +8489,7 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     developer
-                                    <span class="gh">ranked 203k out of 150m users</span>
+                                    <span class="gh">ranked 203k out of 152m users</span>
                                 </div>
                                 <div class="text">Published 100 public repositories</div>
                             </div>
@@ -8560,7 +8560,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     maintainer
-                                    <span class="gh">ranked 25k out of 230m repositories</span>
+                                    <span class="gh">ranked 25k out of 229m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 2071 stars</div>
                             </div>
@@ -8829,7 +8829,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 860k out of 150m users</span>
+                                    <span class="gh">ranked 860k out of 152m users</span>
                                 </div>
                                 <div class="text">Followed by 19 users</div>
                             </div>
@@ -9288,7 +9288,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 28 Dec 2024, 11:11:34 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 28 Dec 2024, 12:11:36 (timezone Europe/Helsinki) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
